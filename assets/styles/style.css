@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --backgroundBodyColor: #24c48f;
+    --mainBackgroundColor: #eef2f0;
+    --dayOfWeekFontColor: #1c1c1b;
+    --dateFontColor: #7f7f7d;
+}
+
+body{
+    background-color: var(--backgroundBodyColor);
+}
+
+#conteiner{
+    margin: 50px auto;
+    background-color: var(--mainBackgroundColor);
+    width: 500px;
+    min-height: 400px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.104);
+}
+
+#titulos-principais{
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+    position: relative;
+    top: 100px;
+}
+
+#dia-semana{
+    color: var(--dayOfWeekFontColor);
+    font-size: 40px;
+}
+
+#data-atual{
+    color: var(--dateFontColor);
+    font-size: 15px;
+    padding: 5px;
+}
+
+#envia-tarefa{
+    position: relative;
+    top: 120px;
+
+    border-radius: 30px;
+    border: none;
+    background-color: #e2e9e6;
+    width: 200px;
+    height: 30px;
+    
+    text-align: center;
+    color: var(--backgroundBodyColor);
+    font-size: 15px;
+}
+
+#envia-tarefa:focus{
+    outline: 0;    
+}
+
