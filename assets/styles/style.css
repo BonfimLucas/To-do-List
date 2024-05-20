@@ -65,3 +65,10 @@ body{
     outline: 0;    
 }
 
+#resultado{
+    margin-top: 150px;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: var(--dateFontColor);
+}
